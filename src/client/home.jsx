@@ -6,6 +6,8 @@ import Add from './addLocation.jsx';
 import Map from './map.jsx';
 import Search from './searchLocation.jsx';
 
+import './styles/home.less';
+
 class Component extends React.Component {
   constructor(props){
     super(props);

@@ -13,7 +13,7 @@ module.exports = [{
   },
   module: {
     loaders: [
-      { test: /\.less$/, loaders: ["style.loader", "css-loader", "less-loader"]},
+      { test: /\.less$/, loaders: ["style-loader", "css-loader", "less-loader"]},
       { test: /\.jsx$/, loader: 'babel-loader', query: {cacheDirectory: true, presets: ['react', 'es2015']} },
       { test: /\.js$/, loader: 'babel-loader', query: {cacheDirectory: true, presets: ['react', 'es2015']} },
     ]
